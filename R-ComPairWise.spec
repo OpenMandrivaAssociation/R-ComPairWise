@@ -7,7 +7,7 @@ Release:          1
 Summary:          Compare phylogenetic or population genetic data alignments
 Group:            Sciences/Mathematics
 License:          GNU GPL
-URL:              None
+URL:              http://cran.r-project.org/web/packages/ComPairWise/index.html
 Source0:          http://cran.r-project.org/src/contrib/Archive/ComPairWise/ComPairWise_1.01.tar.gz
 BuildArch:        noarch
 Requires:         R-core
