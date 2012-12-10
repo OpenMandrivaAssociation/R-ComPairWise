@@ -7,7 +7,7 @@ Release:          1
 Summary:          Compare phylogenetic or population genetic data alignments
 Group:            Sciences/Mathematics
 License:          GNU GPL
-URL:              http://cran.r-project.org/web/packages/ComPairWise/index.html
+URL:              None
 Source0:          http://cran.r-project.org/src/contrib/Archive/ComPairWise/ComPairWise_1.01.tar.gz
 BuildArch:        noarch
 Requires:         R-core
@@ -43,3 +43,34 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/examples
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.01-1
++ Revision: 774624
+- Update and rebuild with R2spec
+- Update and rebuild with R2spec
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.01-6mdv2011.0
++ Revision: 616439
+- the mass rebuild of 2010.0 packages
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 1.01-5mdv2010.0
++ Revision: 433077
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1.01-4mdv2009.0
++ Revision: 260126
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.01-3mdv2009.0
++ Revision: 248223
+- rebuild
+
+* Sun Feb 17 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 1.01-1mdv2008.1
++ Revision: 169917
+- complete spec file
+- fix Url
+- add source and spec file
+- Created package structure for R-cran-ComPairWise.
+
