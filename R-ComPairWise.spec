@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.01
-Release:          2
+Release:          3
 Summary:          Compare phylogenetic or population genetic data alignments
 Group:            Sciences/Mathematics
 License:          GNU GPL
